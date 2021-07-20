@@ -1,5 +1,7 @@
 # TelegramBot
 
+[![\[Telegram\] khamdullaevuz](https://img.shields.io/badge/Telegram-blue.svg?logo=telegram)](https://t.me/khamdullaevuz)
+
 ## Ishlatish:
 
 ### Composer orqali yuklash:
