@@ -1,7 +1,7 @@
 # TelegramBot
 
-[![\Version\] 1.2.3](https://img.shields.io/badge/Version%3A-1.2.3-brightgreen)
-[![\[Telegram\] khamdullaevuz](https://img.shields.io/badge/Telegram-blue.svg?logo=telegram)](https://t.me/khamdullaevuz)
+![](https://img.shields.io/badge/Version%3A-1.2.3-brightgreen)
+![](https://img.shields.io/badge/Telegram-blue.svg?logo=telegram)](https://t.me/khamdullaevuz)
 
 ## Ishlatish:
 
