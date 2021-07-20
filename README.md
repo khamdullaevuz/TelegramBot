@@ -20,6 +20,6 @@ $payment = new TelegramBot("API_KEY");
 
 ### Examples:
 
-Echo bot: [examples](/examples)
+Echo bot: [examples](/examples/telegrambot.php)
 
 ## Created by: [Elbek Khamdullaev](https://khamdullaev.uz)
