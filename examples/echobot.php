@@ -10,9 +10,9 @@ require_once __DIR__ . '/../vendor/autoload.php';
 
 use TelegramBot\TelegramBot;
 
-$bot = new TelegramBot("API_KEY");
+$telegram = new TelegramBot("API_KEY");
 
-$update = $bot->getData('php://input');
+$update = $telegram->getData('php://input');
 if(empty($update)) exit;
 $message = $update['message'];
 $chat_id = $message['chat']['id'];
@@ -27,15 +27,15 @@ $callback_data = $callback_query['data'];
 $callback_chat_id = $callback_query['message']['chat']['id'];
 $callback_message_id = $callback_query['message']['message_id'];
 
-$main = $bot->buildInlineKeyboard([
+$main = $telegram->buildInlineKeyboard([
 	[["Inline Keyboard test","inline"],["Custom keyboard test","custom"]],
 ]);
 
 if($text == "/start"){
 
-	$bot->sendAction($chat_id, "typing");
+	$telegram->sendAction($chat_id, "typing");
 
-	$bot->sendMessage($chat_id, [
+	$telegram->sendMessage($chat_id, [
 		'text'=>"Assalomu alaykum ".$name,
 		'reply_markup'=>$main
 	]);
@@ -43,19 +43,19 @@ if($text == "/start"){
 }
 
 if($callback_data == 'inline'){
-	$bot->answerCallback($callback_id, "Test uchun", true);
+	$telegram->answerCallback($callback_id, "Test uchun", true);
 }
 
 if($callback_data == 'custom'){
 
-	$bot->deleteMessage($callback_chat_id, $callback_message_id);
+	$telegram->deleteMessage($callback_chat_id, $callback_message_id);
 
-	$keyboard = $bot->buildKeyboard([
+	$keyboard = $telegram->buildKeyboard([
 		['Test','Test'],
 		['Test']
 	]);
 
-	$bot->sendMessage($callback_chat_id, [
+	$telegram->sendMessage($callback_chat_id, [
 		'text'=>"Custom keyboard",
 		'reply_markup'=>$keyboard
 	]);

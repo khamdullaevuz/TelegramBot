@@ -15,11 +15,11 @@ require_once __DIR__."/vendor/autoload.php";
 
 use TelegramBot\TelegramBot;
 
-$bot = new TelegramBot("API_KEY");
+$telegram = new TelegramBot("API_KEY");
 ```
 
 ### Examples:
 
-Echo bot: [examples](/examples/telegrambot.php)
+Echo bot: [examples](/examples/echobot.php)
 
 ## Created by: [Elbek Khamdullaev](https://khamdullaev.uz)
