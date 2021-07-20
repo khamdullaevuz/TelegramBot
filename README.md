@@ -1,6 +1,6 @@
 # TelegramBot
 
-![](https://img.shields.io/badge/Version%3A-1.2.3-brightgreen)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/khamdullaevuz/telegrambot)
 [![](https://img.shields.io/badge/Telegram-blue.svg?logo=telegram)](https://t.me/khamdullaevuz)
 
 ## Ishlatish:
