@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * @author Elbek Khamdullaev (https://khamdullaev.uz)
+ * @license MIT
+ * @privacy Mualliflik huquqini hurmat qiling
+ */
+ 
 namespace TelegramBot;
 
 class TelegramBot
