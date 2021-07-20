@@ -1,7 +1,11 @@
 # TelegramBot
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/khamdullaevuz/telegrambot)
-[![](https://img.shields.io/badge/Telegram-blue.svg?logo=telegram)](https://t.me/khamdullaevuz)
+![GitHub followers](https://img.shields.io/github/followers/khamdullaevuz?style=social)
+![GitHub forks](https://img.shields.io/github/forks/khamdullaevuz/telegrambot?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/khamdullaevuz/telegrambot?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/khamdullaevuz/telegrambot?style=social)
+[![Telegram](https://img.shields.io/badge/Telegram-blue.svg?logo=telegram)](https://t.me/khamdullaevuz)
 
 ## Ishlatish:
 
