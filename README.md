@@ -18,7 +18,7 @@ require_once __DIR__."/vendor/autoload.php";
 
 use TelegramBot\TelegramBot;
 
-$payment = new TelegramBot("Pul tushadigan raqam");
+$payment = new TelegramBot("API_KEY");
 
 ```
 
