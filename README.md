@@ -22,7 +22,7 @@ $payment = new TelegramBot("API_KEY");
 
 ```
 
-### To'lov hosil qilish va messagelarni olish:
+### Examples:
 
 Echo bot: [examples](/examples)
 
