@@ -10,7 +10,7 @@
     ],
 	"autoload": {
 		"psr-4": {
-			"Telegram\\": "src/"
+			"TelegramBot\\": "src/"
 		}
 	},
     "minimum-stability": "dev",
