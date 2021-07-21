@@ -6,7 +6,7 @@
  * @privacy Mualliflik huquqini hurmat qiling
  */
  
-namespace Telegram;
+namespace TelegramBot;
 
 class TelegramBot
 {
