@@ -71,7 +71,7 @@ class TelegramBot
     }
 	
 	function forwardMessage($chat_id, $from_chat_id, $message_id){
-    	return $this->go('sendMessage',[
+    	return $this->go('forwardMessage',[
         'chat_id'=>$chat_id,
 		'from_chat_id'=>$from_chat_id,
 		'message_id'=>$message_id
