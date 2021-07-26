@@ -69,6 +69,14 @@ class TelegramBot
             'inline_keyboard'=>$datas
         ]);
     }
+	
+	function forwardMessage($chat_id, $from_chat_id, $message_id){
+    	return $this->go('sendMessage',[
+        'chat_id'=>$chat_id,
+		'from_chat_id'=>$from_chat_id,
+		'message_id'=>$message_id
+        ]);
+    }
 
     function sendMessage($chat_id, $datas=[]){
     	return $this->go('sendMessage',
