@@ -27,7 +27,7 @@ class TelegramBot
         if(curl_error($ch)){
             var_dump(curl_error($ch));
         }else{
-            return json_decode($res);
+            return json_decode($res, true);
         }
     }
 
