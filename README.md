@@ -16,7 +16,7 @@
 composer require khamdullaevuz/telegrambot
 ```
 
-### Ulanish:
+#### Ulanish:
 
 ``` php
 require_once __DIR__."/vendor/autoload.php";
@@ -26,8 +26,25 @@ use KhamdullaevUz\Telegram\TelegramBot;
 $telegram = new TelegramBot("API_KEY");
 ```
 
+### Github orqali yuklash
+
+```bash
+git clone https://github.com/khamdullaevuz/telegrambot
+```
+
+#### Ulanish:
+
+``` php
+require_once __DIR__."/src/TelegramBot.php";
+
+use KhamdullaevUz\Telegram\TelegramBot;
+
+$telegram = new TelegramBot("API_KEY");
+```
+
 ### Examples:
 
 Echo bot: [examples](/examples/echobot.php)
+
 
 ## Created by: [Elbek Khamdullaev](https://khamdullaev.uz)
