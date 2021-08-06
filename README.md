@@ -44,7 +44,7 @@ $telegram = new TelegramBot("API_KEY");
 
 ### Examples:
 
-Echo bot: [examples](/examples/echobot.php)
+Example: [example](/examples/example.php)
 
 
 ## Created by: [Elbek Khamdullaev](https://khamdullaev.uz)

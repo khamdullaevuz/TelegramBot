@@ -6,7 +6,7 @@
  * @license free and open source
  */
 
-require_once __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__ . '/../src/TelegramBot.php';
 
 use KhamdullaevUz\Telegram\TelegramBot;
 
