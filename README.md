@@ -8,15 +8,15 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/khamdullaevuz/telegrambot?style=flat)
 ![GitHub watchers](https://img.shields.io/github/watchers/khamdullaevuz/telegrambot?style=flat)
 
-## Ishlatish:
+## Ishlatish
 
-### Composer orqali yuklash:
+### Composer orqali yuklash
 
 ``` bash
 composer require khamdullaevuz/telegrambot
 ```
 
-#### Ulanish:
+#### Ulanish
 
 ``` php
 require_once __DIR__."/vendor/autoload.php";
@@ -42,7 +42,7 @@ use KhamdullaevUz\Telegram\TelegramBot;
 $telegram = new TelegramBot("API_KEY");
 ```
 
-### Examples:
+### Examples
 
 Example: [example](/examples/example.php)
 
