@@ -8,7 +8,7 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use TelegramBot\TelegramBot;
+use KhamdullaevUz\Telegram\TelegramBot;
 
 $telegram = new TelegramBot("API_KEY");
 

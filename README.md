@@ -21,7 +21,7 @@ composer require khamdullaevuz/telegrambot
 ``` php
 require_once __DIR__."/vendor/autoload.php";
 
-use TelegramBot\TelegramBot;
+use use KhamdullaevUz\Telegram\TelegramBot;
 
 $telegram = new TelegramBot("API_KEY");
 ```
