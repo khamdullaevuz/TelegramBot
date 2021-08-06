@@ -10,7 +10,7 @@ namespace KhamdullaevUz\Telegram;
 
 class TelegramBot
 {
-	public $api_key;
+	public $api_token;
 
 	function __construct($api_key)
 	{
